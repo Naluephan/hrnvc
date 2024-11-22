@@ -130,7 +130,10 @@ return [
         App\Providers\AppServiceProvider::class,
         App\Providers\AppProvidersRepositoriesProvider::class,
         App\Providers\FortifyServiceProvider::class,
-        App\Providers\JetstreamServiceProvider::class
+        App\Providers\JetstreamServiceProvider::class,
+        App\Providers\AuthServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
+        App\Providers\RepositoriesProvider::class
     ])->toArray(),
 
 ];
